@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SOYO 재활용 가이드</title>
+  <title>SoYO 재활용 가이드</title>
   <style>
     * { box-sizing: border-box; }
     body {
@@ -169,6 +169,31 @@
       margin-top: 20px;
       line-height: 1.6;
     }
+    .back-index {
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+      margin-top: 58px;
+    }
+    .back-index a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 360px;
+      padding: 14px 18px;
+      border-radius: 18px;
+      background: rgba(47,52,47,0.05);
+      color: #2f342f;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid rgba(47,52,47,0.08);
+      transition: transform .18s ease, background .18s ease;
+    }
+    .back-index a:hover {
+      transform: translateY(-1px);
+      background: rgba(47,52,47,0.08);
+    }
   </style>
 </head>
 <body>
@@ -176,7 +201,7 @@
     <div class="phone">
       <!-- 메인 선택 페이지 -->
       <section class="page active" id="homePage">
-        <div class="brand">SOYO RECYCLE GUIDE</div>
+        <div class="brand">SoYO RECYCLE GUIDE</div>
         <h1>분리배출 안내</h1>
         <p class="sub">용기와 부자재를 올바르게 버릴 수 있도록 안내해드릴게요. 아래에서 원하는 안내 유형을 선택해 주세요.</p>
 
@@ -203,7 +228,10 @@
           </button>
         </div>
 
-        <p class="footer-note">SOYO의 패키지는 더 나은 순환을 위해 설계되었습니다.</p>
+        <p class="footer-note">SoYO의 패키지는 더 나은 순환을 위해 설계되었습니다.</p>
+        <div class="back-index">
+          <a href="index.html">메인으로 돌아가기</a>
+        </div>
       </section>
 
       <!-- 간단 안내 페이지 -->
@@ -211,7 +239,7 @@
         <div class="topbar">
           <button class="back" onclick="showPage('homePage')">←</button>
           <div>
-            <div class="brand">SOYO</div>
+            <div class="brand">SoYO</div>
             <strong>간단 분리배출 안내</strong>
           </div>
         </div>
@@ -226,6 +254,9 @@
           </ul>
           <p class="tip">※ 지역별 분리배출 기준이 다를 수 있으니, 지자체 안내를 함께 확인해 주세요.</p>
         </div>
+        <div class="back-index">
+          <a href="index.html">메인으로 돌아가기</a>
+        </div>
       </section>
 
       <!-- 상세 안내 페이지 -->
@@ -233,7 +264,7 @@
         <div class="topbar">
           <button class="back" onclick="showPage('homePage')">←</button>
           <div>
-            <div class="brand">SOYO</div>
+            <div class="brand">SoYO</div>
             <strong>상세 분리배출 안내</strong>
           </div>
         </div>
@@ -261,6 +292,9 @@
           <h2 class="section-title">4. 재활용이 어려운 부자재</h2>
           <p class="sub">펌프, 실리콘, 금속 스프링, 복합 소재 부자재 등은 분리 후 일반쓰레기로 버려 주세요.</p>
           <p class="tip">※ 실제 재질에 따라 문구만 바꾸면 바로 사용할 수 있도록 만든 템플릿입니다.</p>
+        </div>
+        <div class="back-index">
+          <a href="index.html">메인으로 돌아가기</a>
         </div>
       </section>
     </div>
